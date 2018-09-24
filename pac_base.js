@@ -25,6 +25,15 @@ var domains = [
 	// add by Tony
 	"jetbrains.com",
 	"dw.com",
+	"v2ray.com",
+	"astrill.com",
+	"atlassian.com",
+	"clicktale.net",
+	"mysql.com",
+	"jetbrains.com",
+	"github.io",
+	"api.github.com",
+
 
 	"vpngate.net",
 	"greatfire.org",
