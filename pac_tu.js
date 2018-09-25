@@ -14,11 +14,7 @@ var domains = [
 	"douban.com",
 	"apache.org",
 	"atlassian.com",
-	"codeload.github.com",
-	"rethinkphp.com",
-	"dropboxusercontent.com",
 	"zhipin.com",
-	"gitbooks.io",
 	"pan.baidu.com",
 
 	"vpngate.net",

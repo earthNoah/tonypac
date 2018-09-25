@@ -1,28 +1,7 @@
 var V2Ray = "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1081; DIRECT;";
 
 var domains = [
-
-	// tuniu
-	"weibo.com",
-	"taobao.com",
-	"zhihu.com",
-	"babyun.cn",
-	"jd.com",
-	"ifeng.com",
-	"retcode.taobao.com",
-	"alicdn.com", 
-	"aliyun.com",
-	"douban.com",
-	"apache.org",
-	"atlassian.com",
-	"codeload.github.com",
-	"rethinkphp.com",
-	"dropboxusercontent.com",
-	"zhipin.com",
-	"gitbooks.io",
-	"pan.baidu.com",
-
-	// add by Tony
+	// add by tony
 	"jetbrains.com",
 	"dw.com",
 	"v2ray.com",
@@ -33,7 +12,18 @@ var domains = [
 	"jetbrains.com",
 	"github.io",
 	"api.github.com",
+	"gitbooks.io",
+	"codeload.github.com",
+	"rethinkphp.com",
+	"dropboxusercontent.com",
 
+	// pinterest
+	"pinterest.com",
+	"pinimg.com",
+
+	// 18+
+	"t66y.com",
+	"pronhub.com",
 
 	"vpngate.net",
 	"greatfire.org",
