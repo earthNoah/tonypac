@@ -31,7 +31,8 @@ var domains = [
 	
 	// reddit
 	"reddit.com",
-
+	"redditmedia.com",
+	
 	// quora
 	"quora.com",
 	"quoracdn.net",
