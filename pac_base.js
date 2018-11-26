@@ -1,21 +1,40 @@
 var V2Ray = "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1081; DIRECT;";
 
 var domains = [
-	// add by tony
 	"jetbrains.com",
 	"dw.com",
-	"v2ray.com",
-	"astrill.com",
 	"atlassian.com",
 	"clicktale.net",
 	"mysql.com",
-	"jetbrains.com",
-	"github.io",
-	"api.github.com",
 	"gitbooks.io",
-	"codeload.github.com",
 	"rethinkphp.com",
 	"dropboxusercontent.com",
+	"amazonaws.com",
+	"tensorflow.org",
+	"charliemonroe.net",
+	"keyboardmaestro.com",
+	"spring.io",
+	"docker.com",
+	"firebaseio.com",
+	"lithium.com",
+	"zdassets.com",
+
+	// github
+	"github.io",
+	"api.github.com",
+	"codeload.github.com",
+	"github.com",
+
+	// slack
+	"slack.com",
+	"slack-edge.com",
+	
+	// reddit
+	"reddit.com",
+
+	// quora
+	"quora.com",
+	"quoracdn.net",
 
 	// pinterest
 	"pinterest.com",
@@ -24,6 +43,7 @@ var domains = [
 	// 18+
 	"t66y.com",
 	"pronhub.com",
+	"sex.com",
 
 	"vpngate.net",
 	"greatfire.org",
@@ -39,7 +59,6 @@ var domains = [
 	"getlantern.org",
 	"furbo.org",
 	"goagentx.com",
-	"github.com",
 	"sourceforge.net",
 	"torproject.org",
 	"hideme.io",

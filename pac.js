@@ -1,47 +1,6 @@
 var V2Ray = "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1081; DIRECT;";
 
 var domains = [
-	// list for tn
-	"weibo.com",
-	"taobao.com",
-	"zhihu.com",
-	"babyun.cn",
-	"jd.com",
-	"ifeng.com",
-	"retcode.taobao.com",
-	"alicdn.com", 
-	"aliyun.com",
-	"douban.com",
-	"apache.org",
-	"atlassian.com",
-	"zhipin.com",
-	"pan.baidu.com",
-
-	// add by tony
-	"jetbrains.com",
-	"dw.com",
-	"v2ray.com",
-	"astrill.com",
-	"atlassian.com",
-	"clicktale.net",
-	"mysql.com",
-	"jetbrains.com",
-	"github.io",
-	"api.github.com",
-	"gitbooks.io",
-	"codeload.github.com",
-	"rethinkphp.com",
-	"dropboxusercontent.com",
-	"amazonaws.com",
-
-	// pinterest
-	"pinterest.com",
-	"pinimg.com",
-
-	// 18+
-	"t66y.com",
-	"pronhub.com",
-
 	"vpngate.net",
 	"greatfire.org",
 	"tox.im",
@@ -64,8 +23,6 @@ var domains = [
 	"shadowx.work",
 	"v2ray.com",
 	"astrill.com",
-	"connoratherton.com",
-	"nytimes.com",
 
 	//Design
 	"deviantart.com",
@@ -232,18 +189,18 @@ var domains = [
 
 	//iTuens
 	"mzstatic.com",
-	//"itunes.apple.com",
+	"itunes.apple.com",
 
 	//cdn
 	"cloudfront.net",
-	"colwiz.com",
+	"colwiz.com"
 ];
 
 function FindProxyForURL(url, host) {
     for (var i = domains.length - 1; i >= 0; i--) {
     	if (dnsDomainIs(host, domains[i])) {
-    		return V2Ray
-    	};
-    };
+            return V2Ray;
+    	}
+    }
     return "DIRECT";
 }
