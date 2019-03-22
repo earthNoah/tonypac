@@ -18,7 +18,42 @@ var domains = [
 	"firebaseio.com",
 	"lithium.com",
 	"zdassets.com",
-
+	"xysblogs.org",
+	"xys.org",
+	"apkpure.com",
+	"winudf.com",
+	"wolves.fm",
+	"tvcdn.de",
+	"kotlinlang.org",
+	"caddyserver.com",
+	"styleguides.io",
+	"adminlte.io",
+	"almsaeedstudio.com",
+	"speckyboy.com",
+	"godoc.org",
+	"swagger.io",
+	"kaggle.com",
+	"elastic.co",
+	"android.com",
+	"ftchinese.com",
+	"phaser.io",
+	"pixijs.io",
+	"code.jquery.com",
+	"fonts.gstatic.com",
+	"cdn.rawgit.com",
+	".googleblog.com ",
+	"google.com",
+	"domains.google",
+	"doubleclick.net",
+	"namesilo.com",
+	"t.me",
+	"git.apache.org",
+	"macrumors.com",
+	"vetoo.me",
+	"ytimg.com",
+	"audiencemanager.de",
+	"spring.io",
+	
 	// github
 	"github.io",
 	"api.github.com",
@@ -32,7 +67,7 @@ var domains = [
 	// reddit
 	"reddit.com",
 	"redditmedia.com",
-	
+
 	// quora
 	"quora.com",
 	"quoracdn.net",
@@ -43,8 +78,11 @@ var domains = [
 
 	// 18+
 	"t66y.com",
-	"pronhub.com",
+	"pornhub.com",
 	"sex.com",
+	"redtube.com",
+	"xvideos.com",
+	"drtuber.com",
 
 	"vpngate.net",
 	"greatfire.org",
@@ -180,6 +218,7 @@ var domains = [
 	"instagram.com",
 	"facebook.com",
 	"fb.me", 
+	"fb.com",
 	"cdninstagram.com",
 	"fbcdn.net", 
 
@@ -199,6 +238,7 @@ var domains = [
 
 	//Google
 	"gmail.com", 
+	"imap.gmail.com",
 	"googlemail.com",
 	"mailchimp.com", 
 	"mail-archive.com", 
@@ -233,7 +273,7 @@ var domains = [
 
 	//iTuens
 	"mzstatic.com",
-	"itunes.apple.com",
+	// "itunes.apple.com",
 
 	//cdn
 	"cloudfront.net",
